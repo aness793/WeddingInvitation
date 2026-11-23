@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {
   MapPin,
   CalendarPlus,
-  Volume2,
-  VolumeX,
   Heart,
   Check,
   X,
@@ -77,10 +75,10 @@ export default function WeddingInvitation() {
       'BEGIN:VCALENDAR',
       'VERSION:2.0',
       'BEGIN:VEVENT',
-      'DTSTART:20261219T150000Z',
-      'DTEND:20261219T220000Z',
+      'DTSTART:20261222T130000Z',
+      'DTEND:20261222T180000Z',
       'SUMMARY:Invitation de mariage - Hadjer Rahmani',
-      'LOCATION:Salle des Fêtes El Afrah, Khemis Miliana, Algérie',
+      'LOCATION:Salle des Fêtes la blanche , Khemis Miliana, Algérie',
       'DESCRIPTION:Avec leurs familles, ils ont la joie de vous convier à célébrer leur union.',
       'END:VEVENT',
       'END:VCALENDAR',
@@ -186,15 +184,17 @@ export default function WeddingInvitation() {
           />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#F5F0E8]" />
         </div>
-
         {/* Bouton audio */}
-    
 
         {/* Contenu principal */}
         <div className="relative z-10 px-6 -mt-6 flex flex-col items-center text-center flex-1">
-          <span className="px-4 py-1 rounded-full bg-white/75 border border-[#D8CBB8] text-[10px] font-semibold tracking-[0.2em] text-[#8E795B] uppercase shadow-xs">
+
+    <p className="mt-4 px-3 py-1.5 rounded-xl bg-white/60 border border-[#E2D7C5] text-[11px] italic text-[#687369] w-full text-center">
+  Pour vous offrir une soirée de détente et de fête, notre mariage se déroule <span className="font-semibold text-[#4E584F] not-italic">sans enfants</span>.
+</p>
+          {/* <span className="px-4 py-1 rounded-full bg-white/75 border border-[#D8CBB8] text-[10px] font-semibold tracking-[0.2em] text-[#8E795B] uppercase shadow-xs">
             Réservez la date
-          </span>
+          </span> */}
 
           <h1
             className="mt-3 text-[34px] leading-tight font-semibold text-[#232B24]"
@@ -263,7 +263,7 @@ export default function WeddingInvitation() {
           {/* Carte lieu */}
           <div className="mt-3 w-full p-4 rounded-2xl bg-white/75 backdrop-blur-md border border-[#E2D7C5] shadow-[0_6px_20px_rgba(44,53,45,0.04)] text-left">
             <p className="text-[14px] font-semibold text-[#232B24]">
-              Salle des Fêtes El Afrah
+              Salle des Fêtes la blanche 
             </p>
             <p className="text-[12px] text-[#687369] mt-0.5">
               Khemis Miliana, Algérie
