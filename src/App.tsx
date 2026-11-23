@@ -189,12 +189,9 @@ export default function WeddingInvitation() {
         {/* Contenu principal */}
         <div className="relative z-10 px-6 -mt-6 flex flex-col items-center text-center flex-1">
 
-    <p className="mt-4 px-3 py-1.5 rounded-xl bg-white/60 border border-[#E2D7C5] text-[11px] italic text-[#687369] w-full text-center">
-  Pour vous offrir une soirée de détente et de fête, notre mariage se déroule <span className="font-semibold text-[#4E584F] not-italic">sans enfants</span>.
-</p>
           {/* <span className="px-4 py-1 rounded-full bg-white/75 border border-[#D8CBB8] text-[10px] font-semibold tracking-[0.2em] text-[#8E795B] uppercase shadow-xs">
             Réservez la date
-          </span> */}
+            </span> */}
 
           <h1
             className="mt-3 text-[34px] leading-tight font-semibold text-[#232B24]"
@@ -219,6 +216,9 @@ export default function WeddingInvitation() {
           <p className="text-[13px] italic text-[#4E584F] max-w-[290px] leading-relaxed">
             Avec leurs familles, ils ont la joie de vous convier à célébrer leur union
           </p>
+            {/* <p className="mt-4 px-3 py-1.5 rounded-xl bg-white/60 border border-[#E2D7C5] text-[24px]  text-[#4E584F] not-italic text-[#687369] w-full text-center">
+        <span className="font-semibold text-[#4E584F] not-italic"> Pas d'enfants s'il vous plaît</span>.
+        </p> */}
 
           {/* Compte à rebours */}
           <div className="mt-5 w-full flex items-center justify-center gap-2">
