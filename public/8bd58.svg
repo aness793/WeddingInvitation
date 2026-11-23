@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   preserveAspectRatio="none"
+   overflow="visible"
+   style="display: block;"
+   width="481.5"
+   height="273.5"
+   viewBox="0 0 481.5 273.5"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="8bd58.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.9179262"
+     inkscape:cx="228.89306"
+     inkscape:cy="154.59406"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <g
+     id="front-pocket">
+    <path
+       id="Vector"
+       d="M0.75 0.750001L240.75 158.75L480.75 0.750001V256.75C480.75 267.417 475.417 272.75 464.75 272.75H16.75C6.08333 272.75 0.75 267.417 0.75 256.75V0.750001Z"
+       fill="#EED7C5"
+       stroke-width="1.5"
+       stroke-linejoin="round"
+       stroke="#B6A18E" />
+    <path
+       id="Vector_2"
+       d="M1.75 2.75L240.75 158.75L8.75 267.75C4.08333 265.083 1.75 261.417 1.75 256.75V2.75Z"
+       fill="#F2DECD" />
+    <path
+       id="Vector_3"
+       d="M479.75 2.75L240.75 158.75L472.75 267.75C477.417 265.083 479.75 261.417 479.75 256.75V2.75Z"
+       fill="#EBD0BC" />
+    <path
+       id="Vector_4"
+       d="M8.75 269.75L226.75 133.75C236.083 127.75 245.417 127.75 254.75 133.75L472.75 269.75C470.75 271.75 468.083 272.75 464.75 272.75H16.75C13.4167 272.75 10.75 271.75 8.75 269.75Z"
+       fill="#F8EEDF"
+       stroke-width="1.5"
+       stroke-linejoin="round"
+       stroke="#B6A18E" />
+  </g>
+</svg>

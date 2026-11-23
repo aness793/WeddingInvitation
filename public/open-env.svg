@@ -1,0 +1,20 @@
+<svg width="560" height="600" viewBox="0 0 560 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="560" height="600" fill="#F5F5F5"/>
+<g id="Open envelope">
+<g id="Frame">
+<g id="top-flap">
+<path id="Vector" d="M42 218L267 51C275.667 44.3333 284.333 44.3333 293 51L518 218V222H42V218Z" fill="#E7CCB7"/>
+<path id="Vector_2" d="M56 235H504C514.667 235 520 229.667 520 219L292 58C284 52 276 52 268 58L40 219C40 229.667 45.3333 235 56 235Z" fill="#FCF3E7" stroke-width="1.5" stroke-linejoin="round" stroke="#B6A18E"/>
+</g>
+<g id="envelope-back">
+<path id="Vector_3" d="M504 235H56C47.1634 235 40 242.163 40 251V509C40 517.837 47.1634 525 56 525H504C512.837 525 520 517.837 520 509V251C520 242.163 512.837 235 504 235Z" fill="#F6EBDD" stroke-width="1.5" stroke="#B6A18E"/>
+</g>
+<g id="front-pocket">
+<path id="Vector_4" d="M40 253L280 411L520 253V509C520 519.667 514.667 525 504 525H56C45.3333 525 40 519.667 40 509V253Z" fill="#EED7C5" stroke-width="1.5" stroke-linejoin="round" stroke="#B6A18E"/>
+<path id="Vector_5" d="M41 255L280 411L48 520C43.3333 517.333 41 513.667 41 509V255Z" fill="#F2DECD"/>
+<path id="Vector_6" d="M519 255L280 411L512 520C516.667 517.333 519 513.667 519 509V255Z" fill="#EBD0BC"/>
+<path id="Vector_7" d="M48 522L266 386C275.333 380 284.667 380 294 386L512 522C510 524 507.333 525 504 525H56C52.6667 525 50 524 48 522Z" fill="#F8EEDF" stroke-width="1.5" stroke-linejoin="round" stroke="#B6A18E"/>
+</g>
+</g>
+</g>
+</svg>

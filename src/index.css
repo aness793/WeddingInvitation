@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-script: "Great Vibes", cursive;
+  --color-ink: #26332a;
+  --color-gold: #86602f;
+  --color-sage: #5f6f57;
+  --color-cream: #fbf7ef;
+  --color-line: #e3d8c3;
+}
