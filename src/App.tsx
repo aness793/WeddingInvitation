@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {
   MapPin,
   CalendarPlus,
-  Volume2,
-  VolumeX,
   Heart,
   Check,
   X,
