@@ -221,7 +221,7 @@ export default function WeddingInvitation() {
         </p> */}
 
           {/* Compte à rebours */}
-          <div className="mt-5 w-full flex items-center justify-center gap-2">
+          {/* <div className="mt-5 w-full flex items-center justify-center gap-2">
             {[
               { label: 'JOURS', value: formatNumber(timeLeft.days) },
               { label: 'HEURES', value: formatNumber(timeLeft.hours) },
@@ -245,7 +245,7 @@ export default function WeddingInvitation() {
                 )}
               </React.Fragment>
             ))}
-          </div>
+          </div> */}
 
           {/* Carte date et heure */}
           <div className="mt-4 w-full px-4 py-3.5 rounded-2xl bg-white/75 backdrop-blur-md border border-[#E2D7C5] shadow-[0_6px_20px_rgba(44,53,45,0.04)] flex items-center gap-3.5 text-left">
@@ -296,7 +296,7 @@ export default function WeddingInvitation() {
               {[
                 { time: '13h30', title: 'Réception & Accueil des invités' },
                 { time: '16h00', title: 'Café et Musique' },
-                { time: '18h00', title: 'Fin de fête ' },
+                { time: '19h00', title: 'Fin de fête ' },
               ].map((event) => (
                 <div key={event.time} className="relative flex items-center gap-2 text-[12px]">
                   <span className="absolute -left-5 w-2.5 h-2.5 rounded-full bg-[#F5F0E8] border-2 border-[#9B825E]" />
