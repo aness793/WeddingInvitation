@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   MapPin,
   CalendarPlus,
@@ -10,24 +10,24 @@ import {
   Loader2,
 } from 'lucide-react';
 
-interface TimeLeft {
-  days: number;
-  hours: number;
-  minutes: number;
-  seconds: number;
-}
+// interface TimeLeft {
+//   days: number;
+//   hours: number;
+//   minutes: number;
+//   seconds: number;
+// }
 
 // Remplacez par votre clé d'accès Web3Forms
 const WEB3FORMS_ACCESS_KEY = 'fefe8d79-ff63-4433-94d2-6a822e414434'
 export default function WeddingInvitation() {
-  const targetDate = new Date('2026-12-22T13:00:00').getTime();
+  // const targetDate = new Date('2026-12-22T13:00:00').getTime();
 
-  const [timeLeft, setTimeLeft] = useState<TimeLeft>({
-    days: 29,
-    hours: 0,
-    minutes: 34,
-    seconds: 7,
-  });
+  // const [timeLeft, setTimeLeft] = useState<TimeLeft>({
+  //   days: 29,
+  //   hours: 0,
+  //   minutes: 34,
+  //   seconds: 7,
+  // });
 
   const [activeModal, setActiveModal] = useState<'rsvp' | 'wishes' | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -48,27 +48,27 @@ export default function WeddingInvitation() {
     message: '',
   });
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = targetDate - now;
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     const now = new Date().getTime();
+  //     const distance = targetDate - now;
 
-      if (distance <= 0) {
-        clearInterval(interval);
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
-        return;
-      }
+  //     if (distance <= 0) {
+  //       clearInterval(interval);
+  //       setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+  //       return;
+  //     }
 
-      setTimeLeft({
-        days: Math.floor(distance / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((distance / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((distance / 1000 / 60) % 60),
-        seconds: Math.floor((distance / 1000) % 60),
-      });
-    }, 1000);
+  //     setTimeLeft({
+  //       days: Math.floor(distance / (1000 * 60 * 60 * 24)),
+  //       hours: Math.floor((distance / (1000 * 60 * 60)) % 24),
+  //       minutes: Math.floor((distance / 1000 / 60) % 60),
+  //       seconds: Math.floor((distance / 1000) % 60),
+  //     });
+  //   }, 1000);
 
-    return () => clearInterval(interval);
-  }, [targetDate]);
+  //   return () => clearInterval(interval);
+  // }, [targetDate]);
 
   const handleAddToCalendar = () => {
     const icsContent = [
@@ -167,7 +167,7 @@ export default function WeddingInvitation() {
     }
   };
 
-  const formatNumber = (num: number) => String(num).padStart(2, '0');
+  // const formatNumber = (num: number) => String(num).padStart(2, '0');
 
   return (
     <div
@@ -221,7 +221,7 @@ export default function WeddingInvitation() {
         </p> */}
 
           {/* Compte à rebours */}
-          <div className="mt-5 w-full flex items-center justify-center gap-2">
+          {/* <div className="mt-5 w-full flex items-center justify-center gap-2">
             {[
               { label: 'JOURS', value: formatNumber(timeLeft.days) },
               { label: 'HEURES', value: formatNumber(timeLeft.hours) },
@@ -245,7 +245,7 @@ export default function WeddingInvitation() {
                 )}
               </React.Fragment>
             ))}
-          </div>
+          </div> */}
 
           {/* Carte date et heure */}
           <div className="mt-4 w-full px-4 py-3.5 rounded-2xl bg-white/75 backdrop-blur-md border border-[#E2D7C5] shadow-[0_6px_20px_rgba(44,53,45,0.04)] flex items-center gap-3.5 text-left">
@@ -296,7 +296,7 @@ export default function WeddingInvitation() {
               {[
                 { time: '13h30', title: 'Réception & Accueil des invités' },
                 { time: '16h00', title: 'Café et Musique' },
-                { time: '18h00', title: 'Fin de fête ' },
+                { time: '19h00', title: 'Fin de fête ' },
               ].map((event) => (
                 <div key={event.time} className="relative flex items-center gap-2 text-[12px]">
                   <span className="absolute -left-5 w-2.5 h-2.5 rounded-full bg-[#F5F0E8] border-2 border-[#9B825E]" />
